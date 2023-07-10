@@ -154,3 +154,25 @@
     height: 300px;
     margin-bottom: 100px;
 }
+/* Subscribe section */
+.subscribe-banner-info {
+    background-image: url("/images/Rectangle\ 9.png");
+    object-fit: cover;
+    width: 70%;
+    margin: auto;
+    background-repeat: no-repeat;
+    margin-bottom: 100px;
+    border-radius: 5px;
+}
+.input-text {
+    padding: 20px 100px;
+    border: none;
+}
+.div-button-input {
+    margin-left: 300px;
+}
+/* footer Section */
+.main-footer {
+    background-color: #111010;
+    color: #ffffffe6;
+}
