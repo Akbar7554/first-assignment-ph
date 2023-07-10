@@ -131,6 +131,7 @@
     font-size: 18px;
     margin-bottom: 20px;
 }
+
 .bg-primary {
     border-radius: 8px;
     background: #E55473;
@@ -141,4 +142,15 @@
     cursor: pointer;
     margin-left: 200px;
 }
+
 /* Instagram Section */
+.instagram-img {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    width: 50%;
+    margin: auto;
+    width: 300px;
+    height: 300px;
+    margin-bottom: 100px;
+}
