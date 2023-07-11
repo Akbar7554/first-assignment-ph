@@ -28,7 +28,6 @@
 .first-container-description {
     color: #27272799;
     font-size: 15px;
-    text-align: left;
     line-height: 25px;
     margin-bottom: 20px;
 }
@@ -69,62 +68,148 @@
     text-align: center;
     font-size: 40px;
     margin-top: 100px;
+    margin-bottom: 20px;
 }
 
 .featured-description {
     color: #27272799;
     text-align: center;
     font-size: 15px;
+    margin-bottom: 30px;
 }
 
 .featured-main-part02 {
     display: flex;
-    gap: 30px;
+    gap: 20px;
     width: 70%;
     margin: auto;
 }
 
-.featured-img {
-    width: 150px;
+.tulip-img-container {
+    background-color: #a7216226;
+    width: 260px;
+    height: 340px;
+    padding: 40px;
+    border-top-left-radius: 300px;
+    border-top-right-radius: 300px;
+}
+
+.tulip-img {
+    margin-top: 80px;
+    margin-left: 35px;
     height: 300px;
     background-repeat: no-repeat;
     object-fit: cover;
 }
 
-.featured-img-container {
-    background-color: #a7216226;
-    width: 300px;
-    height: 400px;
+.transvaal-daisy-img-container {
+    background-color: #0597a026;
+    width: 260px;
+    height: 340px;
+    padding: 40px;
     border-top-left-radius: 300px;
     border-top-right-radius: 300px;
 }
+
+.transvaal-daisy-img {
+    margin-top: 50px;
+    margin-left: 10px;
+    height: 300px;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+
+.tulipa-hungarica-img-container {
+    background-color: #477d1126;
+    width: 260px;
+    height: 340px;
+    padding: 40px;
+    border-top-left-radius: 300px;
+    border-top-right-radius: 300px;
+}
+
+.tulipa-hungarica-img {
+    margin-top: 30px;
+    margin-left: 25px;
+    height: 350px;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+
+.text-underline {
+    margin-top: 20px;
+    text-align: center;
+    color: #272727;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
 
 /* Support Section */
 .support-main {
     background-color: #2727270d;
     display: flex;
+    align-items: center;
     justify-content: space-between;
-    width: 70%;
+    width: 66%;
+    height: 220px;
     margin: auto;
     padding: 30px;
     border-radius: 5px;
     margin-bottom: 100px;
 }
 
+.delivery-boy {
+    height: 60px;
+    width: 60px;
+    margin-left: 100px;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 10px;
+}
+.support-description {
+    color: #272727cc;
+    font-size: 16px;
+    text-align: center;
+}
+.flowers {
+    height: 60px;
+    width: 60px;
+    margin-left: 100px;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 10px;
+}
+.support-boy {
+    height: 60px;
+    width: 60px;
+    margin-left: 50px;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 10px;
+}
+
 /* Discount Section */
 .discount-main {
+    height: 500px;
     display: flex;
     gap: 0px;
     align-items: center;
     background-color: #e554730d;
     margin-bottom: 100px;
 }
+.discount-container-text{
+    margin-left: 200px;
+}
 .discount-image-section {
     padding-left: 100px;
 }
+
 .disc-img {
     height: 300px;
 }
+
 .discount-title {
     color: #272727;
     font-size: 40px;
@@ -141,12 +226,12 @@
 .bg-primary {
     border-radius: 8px;
     background: #E55473;
-    padding: 20px 43px;
+    padding: 16px 30px;
     border: none;
-    font-size: 20px;
+    font-size: 16px;
     color: #FFF;
     cursor: pointer;
-    margin-left: 200px;
+    margin-left: 220px;
 }
 
 /* Instagram Section */
@@ -166,8 +251,9 @@
     margin-left: 100px;
     margin-bottom: 100px;
     border-radius: 5px;
-    
+
 }
+
 .full-images {
     background-image: url("images/Rectangle\ 9.png");
     background-repeat: no-repeat;
@@ -193,10 +279,12 @@
     width: 100%;
     height: 400px;
 }
+
 .footer-info {
     text-align: center;
     padding-top: 120px;
 }
+
 .footer-title {
     color: #FFFFFF;
     font-size: 40px;
@@ -209,6 +297,7 @@
     line-height: 30px;
     margin-bottom: 40px;
 }
+
 .footer-end {
     color: #ffffff66;
 }
