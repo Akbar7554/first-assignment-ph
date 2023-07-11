@@ -1,7 +1,6 @@
 * {
     font-family: 'Lato', sans-serif;
     font-family: 'Open Sans', sans-serif;
-    font-family: 'Work Sans', sans-serif;
     margin: 0px;
     padding: 0px;
 }
@@ -168,11 +167,13 @@
     background-repeat: no-repeat;
     margin-bottom: 10px;
 }
+
 .support-description {
     color: #272727cc;
     font-size: 16px;
     text-align: center;
 }
+
 .flowers {
     height: 60px;
     width: 60px;
@@ -181,6 +182,7 @@
     background-repeat: no-repeat;
     margin-bottom: 10px;
 }
+
 .support-boy {
     height: 60px;
     width: 60px;
@@ -199,9 +201,11 @@
     background-color: #e554730d;
     margin-bottom: 100px;
 }
-.discount-container-text{
+
+.discount-container-text {
     margin-left: 200px;
 }
+
 .discount-image-section {
     padding-left: 100px;
 }
@@ -214,13 +218,14 @@
     color: #272727;
     font-size: 40px;
     margin-bottom: 20px;
+    padding-left: 33px;
 }
 
 .discount-description {
     color: #27272799;
     text-align: center;
     font-size: 18px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .bg-primary {
@@ -231,7 +236,7 @@
     font-size: 16px;
     color: #FFF;
     cursor: pointer;
-    margin-left: 220px;
+    margin-left: 250px;
 }
 
 /* Instagram Section */
@@ -249,31 +254,38 @@
 /* Subscribe section */
 .subscribe-banner-info {
     margin-bottom: 100px;
-    border-radius: 5px;
+    border-radius: 10px;
 
+}
+
+.subscribe-banner-top {
+    padding-top: 1px;
 }
 
 .full-images {
     background-image: url("images/Rectangle\ 9.png");
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     object-fit: cover;
     width: 70%;
     margin: auto;
-    height: 300px;
+    height: 350px;
+    border-radius: 8px;
 }
+
 /* .featured-title {
     
 } */
 .input-text {
-    padding: 18px 300px 18px 20px;
+    padding: 18px 370px 18px 20px;
     border: none;
     border-radius: 5px;
     margin-right: 10px;
 }
 
 .div-button-input {
-    margin-left: 300px;
+    margin-left: 170px;
     
 }
 
