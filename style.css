@@ -238,8 +238,8 @@
 .instagram-img {
     display: flex;
     justify-content: space-around;
-    gap: 20px;
-    width: 50%;
+    gap: 12px;
+    width: 35%;
     margin: auto;
     width: 300px;
     height: 300px;
@@ -248,7 +248,6 @@
 
 /* Subscribe section */
 .subscribe-banner-info {
-    margin-left: 100px;
     margin-bottom: 100px;
     border-radius: 5px;
 
@@ -256,20 +255,26 @@
 
 .full-images {
     background-image: url("images/Rectangle\ 9.png");
+    background-position: center;
     background-repeat: no-repeat;
     object-fit: cover;
-    width: 80%;
+    width: 70%;
     margin: auto;
-    height: 600px;
+    height: 300px;
 }
-
+/* .featured-title {
+    
+} */
 .input-text {
-    padding: 20px 100px;
+    padding: 18px 300px 18px 20px;
     border: none;
+    border-radius: 5px;
+    margin-right: 10px;
 }
 
 .div-button-input {
     margin-left: 300px;
+    
 }
 
 /* footer Section */
