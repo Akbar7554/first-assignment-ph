@@ -16,18 +16,19 @@
 }
 
 .first-container-text {
-    padding: 100px;
+    padding-left: 150px;
 }
 
 .first-container-title {
     color: #272727;
-    font-size: 70px;
+    font-size: 60px;
     margin-bottom: 20px;
 }
 
 .first-container-description {
     color: #27272799;
-    font-size: 18px;
+    font-size: 15px;
+    text-align: left;
     line-height: 25px;
     margin-bottom: 20px;
 }
@@ -35,21 +36,21 @@
 .btn-primary {
     border-radius: 8px;
     background: #E55473;
-    padding: 20px 43px;
+    padding: 16px 30px;
     border: none;
-    font-size: 20px;
+    font-size: 16px;
     color: #FFF;
     cursor: pointer;
 }
 
 /* .first-container-img-main {
-
+    background-color: red;
 } */
 .first-container-img {
     width: 550px;
-    height: 710px;
-    object-fit: cover;
-    background-repeat: no-repeat;
+    height: 670px;
+    padding-right: 150px;
+    margin-top: 42px;
 }
 
 /* Featured section */
@@ -60,14 +61,14 @@
 .featured-main-part01 {
     text-align: center;
     margin-top: 150px;
-    margin-bottom: 100px;
+    margin-bottom: 20px;
 }
 
 .featured-title {
     color: #272727;
     text-align: center;
     font-size: 40px;
-    margin-bottom: 20px;
+    margin-top: 100px;
 }
 
 .featured-description {
@@ -113,12 +114,17 @@
 /* Discount Section */
 .discount-main {
     display: flex;
-    justify-content: space-around;
+    gap: 0px;
     align-items: center;
     background-color: #e554730d;
     margin-bottom: 100px;
 }
-
+.discount-image-section {
+    padding-left: 100px;
+}
+.disc-img {
+    height: 300px;
+}
 .discount-title {
     color: #272727;
     font-size: 40px;
@@ -157,13 +163,18 @@
 
 /* Subscribe section */
 .subscribe-banner-info {
-    background-image: url("images/Rectangle\ 9.png");
-    object-fit: cover;
-    width: 70%;
-    margin: auto;
-    background-repeat: no-repeat;
+    margin-left: 100px;
     margin-bottom: 100px;
     border-radius: 5px;
+    
+}
+.full-images {
+    background-image: url("images/Rectangle\ 9.png");
+    background-repeat: no-repeat;
+    object-fit: cover;
+    width: 80%;
+    margin: auto;
+    height: 600px;
 }
 
 .input-text {
@@ -179,10 +190,25 @@
 .main-footer {
     background-color: #111010;
     color: #ffffffe6;
-    margin: 10px;
+    width: 100%;
+    height: 400px;
 }
-
+.footer-info {
+    text-align: center;
+    padding-top: 120px;
+}
 .footer-title {
     color: #FFFFFF;
     font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.footer-description {
+    color: #ffffffe6;
+    text-align: center;
+    line-height: 30px;
+    margin-bottom: 40px;
+}
+.footer-end {
+    color: #ffffff66;
 }
